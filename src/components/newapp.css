@@ -1,0 +1,143 @@
+.container{
+    margin: 0px;
+ 
+}
+.image1{
+    width: 20px;
+    height: 20px;
+   
+}
+.list-right{
+
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+    gap: 20px; 
+    float: right;  
+}
+.right-box{
+    float: right;
+    margin-left: auto;
+    
+}
+.head2{
+   
+    background-image: url("C:\Users\ram\Downloads\4kimg.jpg");
+    width: 1140px;
+    height:400px;
+   
+    background-repeat: repeat-x;
+    
+}
+
+.Top-Selling-Packages{
+    background-image: url("C:\Users\ram\Downloads\tspimg1.jpg");
+    background-repeat:no-repeat;
+    width: 'device-width';
+    height:400px;
+
+}
+.tsplist{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    list-style: none;
+    padding-top: 100px;
+    
+}
+
+.v1{
+    text-decoration: none;
+    border-style:inset;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.v1:hover{
+    background-color: aqua;
+}
+.tsplist2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 4px;
+    border-color: blueviolet;
+    border-top-style: dashed;
+    border-width: 2px;
+    background-color:greenyellow;
+    
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+    
+}
+.Tsphead{
+    display: inline-flex;
+    align-content: space-between;
+    gap: 50px;
+}
+.Winter-buttons{
+    display: -webkit-inline-flex;
+    justify-content: space-between;
+    gap:30px;
+    align-items: center;
+    align-content: center;
+    margin-left:20%;
+}
+.b1{
+    width: 100px;
+    height: 30px;;
+    background-color: bisque;
+    cursor: pointer;
+    
+}
+.b1:hover{
+    background-color: aqua;
+}
+.Explore-Packages-by-Travel-Experiences{
+    display: inline-flex;
+    justify-content: space-between;
+    gap:100px;
+    margin-left: 30px;
+   
+}
+.Ap{
+    -webkit-text-fill-color:deeppink;
+    background-image: url("C:\Users\ram\Downloads\Ap.jpg");
+    background-repeat: no-repeat;
+    width:300px;
+    height: 300px;
+    align-content: space-between;
+    padding-top:25%;
+    padding-left: 5px;
+    cursor:pointer;
+    text-emphasis-color: green;
+    
+}
+.Ap:hover{
+      -webkit-text-fill-color: chartreuse;
+}
+.footer-setup{
+    justify-content: center;
+    display:inline-flex;
+    align-content: space-between;
+    gap:30px;
+    background-color:#444;
+    opacity: .7;
+    width: 1140px;
+    height:400px;
+    -webkit-text-fill-color: #fff;
+}
+.images-footer{
+    display:inline-flexbox;
+    justify-content:space-between;
+    align-content: space-between;
+    gap: 20px;
+}
+.Where:hover{
+    background-color: antiquewhite;
+    text-shadow: 2px;
+}

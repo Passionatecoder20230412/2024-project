@@ -1,0 +1,12 @@
+.magic{
+    animation: Forms-job infinite 20s linear;
+    transition-delay: 200uuuuuums;
+}
+@keyframes Forms-job{
+    from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
