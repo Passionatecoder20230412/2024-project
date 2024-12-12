@@ -228,7 +228,9 @@ const reducer=(state,action)=>{
       default : return state;
   }
 }
-
+git git remote add origin https://github.com/Passionatecoder20230412/2024-project.git
+git branch -M main
+git push -u origin main
 function Todos() {
   const [todos,dispatch]=useReducer(reducer,initialtodos);
   const handlecomplete=(todo)=>{
